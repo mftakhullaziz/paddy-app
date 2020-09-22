@@ -130,59 +130,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(photoPickerIntent, PICK_IMAGE_REQUEST);
             }
         });
-//        cameraView = findViewById(R.id.cameraView);
-//        imageViewResult = findViewById(R.id.imageViewResult);
-//        textViewResult = findViewById(R.id.textViewResult);
-//        textViewResult.setMovementMethod(new ScrollingMovementMethod());
-
-//        btnToggleCamera = findViewById(R.id.btnToggleCamera);
-//        btnDetectObject = findViewById(R.id.btnDetectObject);
-
-//        cameraView.addCameraKitListener(new CameraKitEventListener() {
-//            @Override
-//            public void onEvent(CameraKitEvent cameraKitEvent) {
-//
-//            }
-//
-//            @Override
-//            public void onError(CameraKitError cameraKitError) {
-//
-//            }
-//
-//            @Override
-//            public void onImage(CameraKitImage cameraKitImage) {
-//
-//                Bitmap bitmap = cameraKitImage.getBitmap();
-//
-//                bitmap = Bitmap.createScaledBitmap(bitmap, INPUT_SIZE, INPUT_SIZE, false);
-//
-//                imageViewResult.setImageBitmap(bitmap);
-//
-//                final List<Classifier.Recognition> results = classifier.recognizeImage(bitmap);
-//
-//                textViewResult.setText(results.toString());
-//
-//            }
-//
-//            @Override
-//            public void onVideo(CameraKitVideo cameraKitVideo) {
-//
-//            }
-//        });
-
-//        btnToggleCamera.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                cameraView.toggleFacing();
-//            }
-//        });
-//
-//        btnDetectObject.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                cameraView.captureImage();
-//            }
-//        });
 
         mPredict_image_btn.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("HandlerLeak")
