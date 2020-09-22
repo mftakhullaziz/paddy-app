@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Paddy Disease Classification</string>
+    <string name="toggle_camera">Buka Kamera</string>
+    <string name="detect_object">Prediksi Penyakit</string>
+</resources>

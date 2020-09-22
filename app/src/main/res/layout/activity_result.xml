@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:id="@+id/image_view_results"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/ic_baseline_backup_24"/>
+
+    <TextView
+        android:layout_below="@+id/image_view_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil Prediksi :"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:layout_below="@+id/image_view_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Akurasi :"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:layout_below="@+id/image_view_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cara Mengatasi :"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
