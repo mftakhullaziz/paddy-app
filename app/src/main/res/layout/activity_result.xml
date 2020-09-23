@@ -24,27 +24,26 @@
                 android:id="@+id/tv1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cara Mengatasi Penyakitnya"
-                android:textSize="17sp"
+                android:text="Saran dan Cara Mengatasi Penyakitnya"
+                android:textSize="16sp"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginLeft="16dp"
-                android:fontFamily="sans-serif-condensed"/>
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/droidsansbold"/>
 
             <TextView
                 android:id="@+id/tv2"
                 android:layout_below="@+id/image_view_results"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. PENYAKIT BLAS"
-                android:textColor="#474747"
+                android:text="1. Penyakit Blas"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginBottom="5dp"
-                android:fontFamily="@font/robotoregular"/>
+                android:fontFamily="@font/droidsansbold"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -78,7 +77,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginBottom="16dp"
-                android:fontFamily="sans-serif-condensed"/>
+                android:fontFamily="@font/droidsansbold"/>
 
             <ImageView
                 android:layout_width="wrap_content"
