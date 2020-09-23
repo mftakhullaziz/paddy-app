@@ -60,7 +60,7 @@ public interface Classifier {
 //            }
 
             if (title != null) {
-                resultString += "JENIS PENYAKIT : " + title  +"\nAKURASI : ";
+                resultString += "Jenis Penyakit : " + title  +"\nAkurasi Penyakit : ";
             }
 
             if (confidence != null) {

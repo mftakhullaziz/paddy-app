@@ -87,11 +87,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
     <androidx.core.widget.NestedScrollView
@@ -116,35 +114,37 @@
                     android:layout_width="match_parent"
                     android:layout_height="220dp"
                     android:adjustViewBounds="true"
-                    android:scaleType="centerInside"
-                    android:background="@drawable/ic_baseline_photo_library_24"/>
+                    android:scaleType="centerInside"/>
             </androidx.cardview.widget.CardView>
 
-            <TextView
-                android:id="@+id/textView0"
-                android:layout_width="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
-                android:fontFamily="sans-serif-condensed-medium"
-                android:textSize="25sp"
-                android:layout_centerHorizontal="true"
-                android:textColor="@color/colorAccent"
-                android:textStyle="bold"
-                android:layout_height="wrap_content"
-                android:text="HASIL PREDIKSI :"/>
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textSize="25sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="Hasil prediksi penyakit padi :"/>
 
 
-            <TextView
-                android:id="@+id/textView1"
-                android:layout_width="245dp"
-                android:layout_height="57dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginLeft="5dp"
-                android:textColor="@color/colorAccent"
-                android:textStyle="bold"
-                android:fontFamily="sans-serif-condensed-medium"
-                android:text="                                                                                  "
-                android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="245dp"
+                    android:layout_height="57dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="                                                                                  "
+                    android:textSize="25sp" />
+
+
+
 
 <!--            <TextView-->
 <!--                android:id="@+id/textView2"-->
@@ -163,7 +163,7 @@
         android:fontFamily="sans-serif-condensed-medium"
         style="@style/Base.Widget.AppCompat.Button.Colored"
         android:layout_width="match_parent"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:textSize="18sp"
         android:textAllCaps="false"
         android:layout_height="65dp"
