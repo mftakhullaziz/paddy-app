@@ -36,12 +36,23 @@
                 android:layout_below="@+id/image_view_results"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Penyakit Blas"
+                android:text="1. PENYAKIT BLAS"
+                android:textColor="#474747"
                 android:textSize="16sp"
+                android:textStyle="bold"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginLeft="16dp"
-                android:fontFamily="sans-serif-condensed"/>
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/robotoregular"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:src="@drawable/blas">
+            </ImageView>
 
             <TextView
                 android:id="@+id/tv3"
@@ -66,7 +77,16 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
                 android:fontFamily="sans-serif-condensed"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="20sp"
+                android:src="@drawable/blas">
+            </ImageView>
 
             <TextView
                 android:layout_below="@+id/image_view_results"
