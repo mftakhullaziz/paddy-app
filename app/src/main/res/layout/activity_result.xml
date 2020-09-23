@@ -17,6 +17,7 @@
 
     <TextView
         android:layout_below="@+id/image_view_results"
+        android:id="@+id/tv1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hasil Prediksi :"
@@ -27,6 +28,7 @@
         android:fontFamily="sans-serif-condensed-medium"/>
 
     <TextView
+        android:id="@+id/tv2"
         android:layout_below="@+id/image_view_results"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

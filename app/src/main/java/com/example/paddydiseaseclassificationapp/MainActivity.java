@@ -22,6 +22,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Handler;
 import android.os.Message;
+import android.os.Parcelable;
 import android.provider.MediaStore;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
@@ -70,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
     Button mLoadBtn;
     ImageView mImageView;
     TextView mTv;
+    TextView mTv2;
 
     Uri image_uri;
 
@@ -82,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int PICK_IMAGE_REQUEST = 1;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
         mPredict_image_btn = findViewById(R.id.predict_image_btn);
         mResults_image_btn = findViewById(R.id.results_image_btn);
         mTv = findViewById(R.id.textView1);
+//        mTv = findViewById(R.id.textView2);
+
 
         //button click
         mCaptureBtn.setOnClickListener(new View.OnClickListener() {
@@ -142,20 +147,12 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-//                cameraView.captureImage();
-//                Bitmap bitmap = mImageView.getDrawingCache();
-
 
                 if (mImageView.getDrawable() == null){
-                    //Image exist.
-
                     Toast.makeText(getBaseContext(), "Silahkan Upload Gambar" , Toast.LENGTH_SHORT ).show();
                 }
                 else{
-                    //Image Does't Exists!.
-
                     progressDialog = new ProgressDialog(MainActivity.this);
-
                     progressDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
 
                         @Override
@@ -191,6 +188,7 @@ public class MainActivity extends AppCompatActivity {
                                         //imageViewResult.setImageBitmap(bitmap);
                                         final List<Classifier.Recognition> results = classifier.recognizeImage(bitmap);
                                         mTv.setText(results.toString().replace("[", "").replace("]", ""));
+//                                        mTv2.setText(results.toString().replace("[", "").replace("]", ""));
 
                                     }
                                 }
@@ -207,14 +205,13 @@ public class MainActivity extends AppCompatActivity {
 //
         initTensorFlowAndLoadModel();
 
+
         mResults_image_btn.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
-
-                Intent intent = new Intent(MainActivity.this, ResultActivity.class);
-                intent.putExtra("image", R.id.image_view);
+                Intent intent = new Intent(MainActivity.this,  ResultActivity.class);
                 startActivity(intent);
-
             }
         });
     }
