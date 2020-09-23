@@ -2,5 +2,24 @@
     <string name="app_name">Paddy Disease Classification</string>
     <string name="toggle_camera">Buka Kamera</string>
     <string name="detect_object">Prediksi Penyakit</string>
-    <string name="blas">Prediksi Penyakit kkkkkkkkkkkk kkkkkkkkkkkk kkkkkkk kkkasccccc cc ccccccccccc cccccccccccc ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</string>
+    <string name="blas">
+        Menurut Santoso dan Nasution (2012) pengendalian penyakit blas dapat dilakukan dengan menggunakan varietas tahan, diversifikasi varietas padi, cara bercocok tanam dan pendekatan kimiawi.
+­         Ketahanan Varietas
+Cara yang paling efektif, murah dan ramah lingkungan dalam pengendalian blas adalah penggunaan varietas tahan. Ketahanan varietas padi pada penyakit blas umumnya mudah patah. Ketahanan varietas unggul yang dilepas patah setelah beberapa musim tanam. Penggunaan varietas tahan tersebut harus disesuaikan dengan sebaran ras yang dominan di suatu daerah. Apabila tanaman padi ditanam berturut-turut sepanjang tahun, maka pergiliran varietas atau rotasi gen harus dilakukan. Beberapa varietas yang masih menunjukkan reaksi tahan sampai sekarang adalah Limboto, Danau Gaung, Situ Patenggang, dan Batutegi.
+­         Diversifikasi Varietas Padi
+Diversifikasi varietas padi dapat dilakukan dengan beberapa cara yaitu:
+1. Penanaman varietas yang berbeda secara berseling-seling;
+2. Pelepasan galur secara terus-menerus;
+3. Penanaman sejumlah varietas/galur dalam suatu hamparan.
+­         Pendekatan Cara Bercocok Tanam
+Pengendalian penyakit blas dengan pendekatan cara bercocok tanam dapat dilakukan dengan beberapa cara yaitu:
+1. Pemakaian jerami sebagai kompos;
+2. Penggunaan pupuk nitrogen dengan dosis;
+3. Waktu tanam yang tepat.
+­         Pendekatan Kimiawi
+Pengendalian penyakit blas dengan pendekatan kimiawi dapat dilakukan dengan beberapa cara yaitu:
+1. Cara perendaman benih (soaking) dalam fungisida;
+2. Penyemprotan tanaman dengan fungisida.
+
+    </string>
 </resources>
