@@ -46,6 +46,7 @@
             <TextView
                 android:id="@+id/tv3"
                 android:layout_below="@+id/image_view_results"
+                android:justificationMode="inter_word"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/droidsans"
