@@ -9,40 +9,64 @@
     android:gravity="center_horizontal"
     tools:context=".ResultActivity">
 
-    <TextView
-        android:layout_below="@+id/image_view_results"
-        android:id="@+id/tv1"
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cara Mengatasi Penyakitnya"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:fontFamily="sans-serif-condensed-medium"/>
+        android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/tv2"
-        android:layout_below="@+id/image_view_results"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="1. Penyakit Blas"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:fontFamily="sans-serif-condensed-medium"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
 
-    <TextView
-        android:layout_below="@+id/image_view_results"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="2. Penyakit Hawar"
-        android:textSize="20sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
-        android:fontFamily="sans-serif-condensed-medium"/>
+            <TextView
+                android:layout_below="@+id/image_view_results"
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cara Mengatasi Penyakitnya"
+                android:textSize="17sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="sans-serif-condensed"/>
 
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_below="@+id/image_view_results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Penyakit Blas"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="sans-serif-condensed"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_below="@+id/image_view_results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blas"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/image_view_results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Penyakit Hawar"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

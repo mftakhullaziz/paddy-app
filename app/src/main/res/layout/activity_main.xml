@@ -128,7 +128,7 @@
                     android:textColor="@color/colorAccent"
                     android:textStyle="bold"
                     android:layout_height="wrap_content"
-                    android:text="Hasil prediksi penyakit padi :"/>
+                    android:text="Hasil prediksi penyakit padi"/>
 
 
                 <TextView
