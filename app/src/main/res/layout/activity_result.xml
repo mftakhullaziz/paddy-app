@@ -11,46 +11,62 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
+        android:background="#FFFFFF"
         android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
+            android:background="@color/colorWhite"
             android:orientation="vertical">
 
             <TextView
                 android:layout_below="@+id/image_view_results"
                 android:id="@+id/tv1"
+                android:textColor="#474747"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Saran dan Cara Mengatasi Penyakitnya"
-                android:textSize="16sp"
+                android:text="Jenis penyakit pada tanaman padi dan cara mengatasinya"
+                android:textStyle="bold"
+                android:textSize="15sp"
                 android:layout_marginTop="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginLeft="16dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
                 android:layout_marginBottom="10dp"
-                android:fontFamily="@font/droidsansbold"/>
+                android:fontFamily="@font/robotoregular"/>
 
             <TextView
                 android:id="@+id/tv2"
                 android:layout_below="@+id/image_view_results"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="1. Penyakit Blas"
-                android:textSize="16sp"
-                android:layout_marginRight="16dp"
-                android:layout_marginLeft="16dp"
+                android:text="A. Blas"
+                android:textColor="#474747"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
                 android:layout_marginBottom="5dp"
-                android:fontFamily="@font/droidsansbold"/>
+                android:fontFamily="@font/robotoregular"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                android:layout_marginLeft="20sp"
-                android:layout_marginRight="20sp"
-                android:src="@drawable/blas">
-            </ImageView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:id="@+id/image_view"
+                    android:src="@drawable/blas"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"/>
+            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:id="@+id/tv3"
@@ -58,13 +74,14 @@
                 android:justificationMode="inter_word"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/opensans"
+                android:fontFamily="@font/montserratregular"
                 android:textColor="#474747"
                 android:text="@string/blas"
-                android:textSize="14sp"
+                android:textSize="11sp"
+                android:textStyle="bold"
                 android:layout_marginTop="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginLeft="16dp"/>
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"/>
 
             <TextView
                 android:layout_below="@+id/image_view_results"
