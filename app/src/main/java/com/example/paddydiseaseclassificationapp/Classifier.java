@@ -60,11 +60,11 @@ public interface Classifier {
 //            }
 
             if (title != null) {
-                resultString += "Jenis Penyakit : " + title  +"\nAkurasi Penyakit : ";
+                resultString += "Jenis penyakitnya adalah : " + title;
             }
 
             if (confidence != null) {
-                resultString += String.format("%.1f%% ", confidence * 100.0f);
+                resultString += "\nTingkat keakuratan : " + String.format("%.1f%% ", confidence * 100.0f);
             }
 
             return resultString.trim();

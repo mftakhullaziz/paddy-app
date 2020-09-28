@@ -9,7 +9,38 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a78979f-100e-44b5-9084-735ab281edc5" name="Default Changelist" comment="" />
+    <list default="true" id="6a78979f-100e-44b5-9084-735ab281edc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_tensorflow_tensorflow_lite_gpu_2_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/paddydiseaseclassificationapp/Classifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/paddydiseaseclassificationapp/Classifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/paddydiseaseclassificationapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/paddydiseaseclassificationapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +67,9 @@
       </list>
     </option>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,6 +82,7 @@
   <component name="PropertiesComponent">
     <property name="ApkExportedModule" value="app" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
@@ -233,6 +268,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update baru1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="191" width="800" height="673" key="#Inspections" timestamp="1601275871582">
+      <screen x="0" y="29" width="1920" height="1001" />
+    </state>
+    <state x="555" y="191" width="800" height="673" key="#Inspections/0.29.1920.1001@0.29.1920.1001" timestamp="1601275871582" />
     <state x="543" y="286" width="824" height="480" key="AndroidCreateResourceDirectoryDialog" timestamp="1600839520494">
       <screen x="0" y="27" width="1920" height="1003" />
     </state>
@@ -246,22 +285,26 @@
     </state>
     <state x="525" y="27" width="860" height="1003" key="CommitChangelistDialog2/0.27.1920.1003@0.27.1920.1003" timestamp="1600845750801" />
     <state x="525" y="95" width="860" height="864" key="CommitChangelistDialog2/0.29.1920.1001@0.29.1920.1001" timestamp="1600829107289" />
-    <state width="1872" height="262" key="GridCell.Tab.0.bottom" timestamp="1600823141305">
+    <state width="1872" height="570" key="GridCell.Tab.0.bottom" timestamp="1601280256779">
       <screen x="0" y="29" width="1920" height="1001" />
     </state>
-    <state width="1872" height="262" key="GridCell.Tab.0.bottom/0.29.1920.1001@0.29.1920.1001" timestamp="1600823141305" />
-    <state width="1872" height="262" key="GridCell.Tab.0.center" timestamp="1600823141305">
+    <state width="1872" height="570" key="GridCell.Tab.0.bottom/0.29.1920.1001@0.29.1920.1001" timestamp="1601280256779" />
+    <state width="1872" height="570" key="GridCell.Tab.0.center" timestamp="1601280256777">
       <screen x="0" y="29" width="1920" height="1001" />
     </state>
-    <state width="1872" height="262" key="GridCell.Tab.0.center/0.29.1920.1001@0.29.1920.1001" timestamp="1600823141305" />
-    <state width="1872" height="262" key="GridCell.Tab.0.left" timestamp="1600823141305">
+    <state width="1872" height="570" key="GridCell.Tab.0.center/0.29.1920.1001@0.29.1920.1001" timestamp="1601280256777" />
+    <state width="1872" height="570" key="GridCell.Tab.0.left" timestamp="1601280256777">
       <screen x="0" y="29" width="1920" height="1001" />
     </state>
-    <state width="1872" height="262" key="GridCell.Tab.0.left/0.29.1920.1001@0.29.1920.1001" timestamp="1600823141305" />
-    <state width="1872" height="262" key="GridCell.Tab.0.right" timestamp="1600823141305">
+    <state width="1872" height="570" key="GridCell.Tab.0.left/0.29.1920.1001@0.29.1920.1001" timestamp="1601280256777" />
+    <state width="1872" height="570" key="GridCell.Tab.0.right" timestamp="1601280256778">
       <screen x="0" y="29" width="1920" height="1001" />
     </state>
-    <state width="1872" height="262" key="GridCell.Tab.0.right/0.29.1920.1001@0.29.1920.1001" timestamp="1600823141305" />
+    <state width="1872" height="570" key="GridCell.Tab.0.right/0.29.1920.1001@0.29.1920.1001" timestamp="1601280256778" />
+    <state x="441" y="164" key="SettingsEditor" timestamp="1601274381943">
+      <screen x="0" y="29" width="1920" height="1001" />
+    </state>
+    <state x="441" y="164" key="SettingsEditor/0.29.1920.1001@0.29.1920.1001" timestamp="1601274381943" />
     <state x="718" y="308" width="474" height="437" key="chooseDestDirectoryDialog" timestamp="1600844599468">
       <screen x="0" y="27" width="1920" height="1003" />
     </state>
@@ -274,19 +317,5 @@
       <screen x="0" y="29" width="1920" height="1001" />
     </state>
     <state x="623" y="248" width="672" height="678" key="search.everywhere.popup/0.29.1920.1001@0.29.1920.1001" timestamp="1600828015177" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/paddydiseaseclassificationapp/MainActivity.java</url>
-          <line>88</line>
-          <properties class="com.example.paddydiseaseclassificationapp.MainActivity" method="onCreate">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
