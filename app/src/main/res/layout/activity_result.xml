@@ -28,10 +28,10 @@
                 android:layout_height="wrap_content"
                 android:text="Jenis penyakit pada tanaman padi dan cara mengatasinya"
                 android:textStyle="bold"
-                android:textSize="15sp"
+                android:textSize="14sp"
                 android:layout_marginTop="16dp"
                 android:layout_marginLeft="22dp"
-                android:layout_marginRight="22dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/robotoregular"/>
 
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:text="A. Blas"
                 android:textColor="#474747"
-                android:textSize="14sp"
+                android:textSize="13sp"
                 android:textStyle="bold"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
@@ -51,22 +51,37 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="match_parent"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
                 app:cardElevation="3dp"
                 app:cardBackgroundColor="@color/colorWhite"
-                app:cardCornerRadius="5dp">
+                app:cardCornerRadius="3dp">
 
                 <ImageView
                     android:id="@+id/image_view"
                     android:src="@drawable/blas"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="match_parent"
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside"/>
             </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_below="@+id/image_view_results"
+                android:justificationMode="inter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#474747"
+                android:text="> Gejala"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"/>
 
             <TextView
                 android:id="@+id/tv3"
@@ -78,6 +93,36 @@
                 android:textColor="#474747"
                 android:text="@string/blas"
                 android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_below="@+id/image_view_results"
+                android:justificationMode="inter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#474747"
+                android:text="> Pengendalian"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginLeft="22dp"/>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_below="@+id/image_view_results"
+                android:justificationMode="inter_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="#474747"
+                android:text="@string/blas1"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 android:layout_marginTop="16dp"
                 android:layout_marginRight="22dp"
@@ -95,13 +140,24 @@
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/droidsansbold"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                android:layout_marginLeft="20sp"
-                android:layout_marginRight="20sp"
-                android:src="@drawable/blas">
-            </ImageView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="@color/colorWhite"
+                app:cardCornerRadius="3dp">
+
+                <ImageView
+                    android:id="@+id/image_view1"
+                    android:src="@drawable/hawar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerInside"/>
+            </androidx.cardview.widget.CardView>
 
             <TextView
                 android:layout_below="@+id/image_view_results"

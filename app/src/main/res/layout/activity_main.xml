@@ -42,8 +42,9 @@
                     android:layout_width="wrap_content"
                     android:layout_marginTop="18dp"
                     android:layout_marginLeft="15dp"
-                    android:fontFamily="@font/robotoregular"
-                    android:textSize="15sp"
+                    android:fontFamily="@font/droidsans"
+                    android:textSize="13sp"
+                    android:textColor="#474747"
                     android:textStyle="bold"
                     android:layout_centerHorizontal="true"
                     android:layout_height="wrap_content"
@@ -54,13 +55,14 @@
                     android:layout_width="wrap_content"
                     android:textStyle="bold"
                     android:layout_height="50dp"
+                    android:textColor="#474747"
                     android:layout_centerHorizontal="true"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginRight="15dp"
-                    android:fontFamily="@font/robotoregular"
+                    android:fontFamily="@font/droidsans"
                     android:text="                                                                                  "
-                    android:textSize="15sp" />
+                    android:textSize="13sp" />
 
             <Button
                 android:id="@+id/capture_image_btn1"
@@ -68,7 +70,7 @@
                 android:fontFamily="@font/droidsans"
                 style="@style/Base.Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 android:textAllCaps="false"
