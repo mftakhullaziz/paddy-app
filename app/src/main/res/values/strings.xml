@@ -10,7 +10,7 @@
     </string>
     <string name="blas1">
         Pengendalian
-        Menurut Santoso dan Nasution (2012) pengendalian penyakit blas dapat dilakukan dengan menggunakan varietas tahan, diversifikasi varietas padi, cara bercocok tanam dan pendekatan kimiawi.
+                Menurut Santoso dan Nasution (2012) pengendalian penyakit blas dapat dilakukan dengan menggunakan varietas tahan, diversifikasi varietas padi, cara bercocok tanam dan pendekatan kimiawi.
 ­       Ketahanan Varietas
         Cara yang paling efektif, murah dan ramah lingkungan dalam pengendalian blas adalah penggunaan varietas tahan. Ketahanan varietas padi pada penyakit blas umumnya mudah patah. Ketahanan varietas unggul yang dilepas patah setelah beberapa musim tanam. Penggunaan varietas tahan tersebut harus disesuaikan dengan sebaran ras yang dominan di suatu daerah. Apabila tanaman padi ditanam berturut-turut sepanjang tahun, maka pergiliran varietas atau rotasi gen harus dilakukan. Beberapa varietas yang masih menunjukkan reaksi tahan sampai sekarang adalah Limboto, Danau Gaung, Situ Patenggang, dan Batutegi.
 ­       Diversifikasi Varietas Padi
@@ -34,7 +34,8 @@
         Gejala serangan penyakit hawar daun bakteri pada tanaman padi bersifat sistematis dan dapat menginfeksi tanaman pada berbagai stadium pertumbuhan. Gejala penyakit ini dapat dibedakan menjadi tiga macam,yaitu: (1). Gejala layu (kresek) pada tanaman muda atau tanaman dewasa yang peka ,(2). Gejala hawar dan (3). Gejala daun kuning pucat.
         Gejala layu yang kemudian dikenal dengan nama kresek umumnya terhadap pada tanaman muda berumur 1-2 minggu setelah tanam atau tanaman dewasa yang rentan .Pada awalnya gejala terdapat pada tepi daun atau bagian daun yang luka berupa garis bercak kebasahan, bercak tersebut meluas berwarna hijau keabu-abuan , selanjutnya seluruh daun menjadi keriput dan akhirnya layu seperti tersiram air panas. Sering kali bila air irigasi tinggi, tanaman yang layu terkulai kepermukaan air dan menjadi busuk.Pada tanaman yang peka terhadap penyakit ini,gejala terus berkembang hingga seluruh permukaan daun,bahkan kadang-kadang pelepah padi sampai mengering.Pada pagi hari cuaca lembab ,eksudat bakteri sering keluar ke permukaan daun dan mudah jatuh oleh hembusan angin,gesekan angin,geekan daun atau percikan air hujan. Eksudat ini merupakan sumber penularan yang efektif.
         Hawar daun bakteri (HDB) adalah salah satu penyakit yang dapat menyebabkan pertanaman padi mengalami puso. Penyakit ini disebabkan oleh bakteri xanthomonas oryzae pv. oryzae yang dapat menginfeksi tanaman mulai dari pembibitan sampai panen. Ada dua macam gejala penyakit HDB. Gejala yang muncul pada saat tanaman berumur kurang dari 30 hari setelah tanam, yaitu pada persemaian atau tanaman yang baru dipindah ke lapang, disebut kresek. Gejala yang timbul pada fase anakan sampai pemasakan disebut hawar (blight). Secara spesifik tanda-tanda tanaman terserang adalah timbulnya bercak berwarna kuning sampai putih, berawal dari terbentuknya garis lebam berair pada bagian tepi daun. Bercak bisa mulai dari salah satu atau kedua tepi daun yang rusak dan berkembang hingga menutupi seluruh helaian daun. Apabila infeksi melalui akar atau pangkal batang, tanaman terlihat kering seperti terbakar.
-
+    </string>
+    <string name="hawar1">
         Pegendalian
         1. (Stable. Menanam jenis yang tahan.
         2. Bibit padi yang dipindah tidak dipotong ujung daunnya.
@@ -43,5 +44,6 @@
         5. Pemupukan yang seimbang.
         6. Tidak mengairi persemaian terlalu dalam.
         7. Jika diperlukan, penyakit dapat dicegah dengan merendam bibit yang dipotong daunnya ke dalam larutan terusi 0.05% selama 30 menit. Tanaman dapat disemprot bakterisida fenazin-5 oksida x 10 WP) dengan dosis 0.1 kg/ha bahan aktif.
+
     </string>
 </resources>

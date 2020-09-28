@@ -1,5 +1,6 @@
 package com.example.paddydiseaseclassificationapp;
 
+import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
 
 import java.util.List;
@@ -52,6 +53,7 @@ public interface Classifier {
             return confidence;
         }
 
+        @SuppressLint("DefaultLocale")
         @Override
         public String toString() {
             String resultString = "";

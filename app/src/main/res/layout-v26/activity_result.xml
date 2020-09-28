@@ -17,7 +17,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="20dp"
             android:background="@color/colorWhite"
             android:orientation="vertical">
 
@@ -65,9 +64,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
-                    android:scaleType="centerInside"
-                    android:contentDescription="TODO"
-                    tools:ignore="ContentDescription" />
+                    android:scaleType="centerInside"/>
             </androidx.cardview.widget.CardView>
 
             <TextView
@@ -190,7 +187,7 @@
                 android:text="@string/hawar"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="22dp"
                 android:layout_marginLeft="22dp"/>
 
@@ -220,8 +217,7 @@
                 android:text="@string/hawar1"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                android:layout_marginBottom="50dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="22dp"
                 android:layout_marginLeft="22dp"/>
 
