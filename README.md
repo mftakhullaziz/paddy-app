@@ -4,4 +4,6 @@
 #### Tampilan Aplikasi
   ![alt text](https://github.com/mift019/paddy-app/blob/master/results/a.png)
 
+
+#### Tampilan Saran
   ![alt text](https://github.com/mift019/paddy-app/blob/master/results/b.png)
