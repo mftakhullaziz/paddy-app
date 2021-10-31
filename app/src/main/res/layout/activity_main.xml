@@ -31,7 +31,7 @@
                 <ImageView
                     android:id="@+id/image_view"
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
+                    android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:scaleType="centerInside"
                     android:src="@drawable/bground" />
@@ -53,9 +53,9 @@
                     android:layout_marginTop="18dp"
                     android:layout_marginLeft="15dp"
                     android:fontFamily="@font/droidsans"
-                    android:textSize="24sp"
-                    android:textColor="#474747"
-                    android:textStyle="normal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
                     android:layout_centerHorizontal="true"
                     android:layout_height="wrap_content"
                     android:text="Result predict detection : \n"/>
@@ -68,10 +68,9 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="15dp"
-                    android:fontFamily="@font/droidsans"
-                    android:text="\n "
+                    android:text="\n"
                     android:textColor="#474747"
-                    android:textSize="25sp"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
             </androidx.cardview.widget.CardView>
@@ -86,7 +85,7 @@
                 android:textSize="14sp"
                 android:textStyle="bold"
                 android:textAllCaps="false"
-                android:layout_marginBottom="-6dp"
+                android:layout_marginBottom="12dp"
                 tools:ignore="MissingConstraints" />
 
 
@@ -95,11 +94,11 @@
                 android:id="@+id/capture_image_btn1"
                 android:text="capture images from camera"
                 android:fontFamily="@font/droidsans"
-                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_marginTop="5dp"
                 android:textSize="14sp"
-                android:textStyle="bold"
+                android:textStyle="normal"
                 android:textAllCaps="false"
                 android:layout_height="65dp"
                 android:layout_marginBottom="-6dp"
@@ -109,10 +108,10 @@
                 android:id="@+id/capture_image_btn2"
                 android:text="upload images from gallery"
                 android:fontFamily="@font/droidsans"
-                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:textSize="14sp"
-                android:textStyle="bold"
+                android:textStyle="normal"
                 android:textAllCaps="false"
                 android:layout_height="65dp"
                 android:layout_marginBottom="-6dp"
@@ -124,11 +123,11 @@
                 android:id="@+id/results_image_btn"
                 android:text="suggestions and how to solve it"
                 android:fontFamily="@font/droidsans"
-                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
                 android:textSize="14sp"
-                android:textStyle="bold"
+                android:textStyle="normal"
                 android:textAllCaps="false"
                 tools:ignore="MissingConstraints" />
 

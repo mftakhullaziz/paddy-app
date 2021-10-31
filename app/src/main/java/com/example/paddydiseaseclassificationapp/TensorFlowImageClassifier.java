@@ -66,7 +66,7 @@ public class TensorFlowImageClassifier implements Classifier {
             interpreter.run(byteBuffer, result);
             return getSortedResultByte(result);
         } else {
-            float [][] result = new float[1][labelList.size()];
+            float [][] result = new float[0][labelList.size()];
             interpreter.run(byteBuffer, result);
             return getSortedResultFloat(result);
         }
