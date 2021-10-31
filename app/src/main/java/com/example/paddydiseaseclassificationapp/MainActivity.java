@@ -115,6 +115,7 @@ public class MainActivity extends AppCompatActivity {
             mPredict_image_btn.setOnClickListener(new View.OnClickListener() {
 
                 @SuppressLint("HandlerLeak")
+                final
                 Handler handle = new Handler() {
                     public void handleMessage(Message msg) {
                         super.handleMessage(msg);
@@ -266,33 +267,14 @@ public class MainActivity extends AppCompatActivity {
 
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK) {
-            //set the image captured to our ImageView
             mImageView.setImageURI(image_uri);
-
-
-
-
-//            image_uri = data.getData();
-//            try {
-//                Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), image_uri);
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
             if (requestCode == REQUEST_CAMERA) {
                 if (data != null) {
                     Bitmap photo = (Bitmap) data.getExtras().get("data");
-                    /* Passing BITMAP to the Second Activity */
-//                    Intent IntentCamera = new Intent(this, ResultsActivity.class);
-//                    IntentCamera.putExtra("BitmapImage", photo);
-//                    startActivity(IntentCamera);
                 }
             } else if (requestCode == REQUEST_GALLERY) {
                 if (data != null) {
-//                    image_uri = data.getData();
-                    /* Passing ImageURI to the Second Activity */
-//                    Intent IntentGallery = new Intent(this, ResultsActivity.class);
-//                    IntentGallery.setData(image_uri);
-//                    startActivity(IntentGallery);
+
                     try {
                         final Uri imageUri = data.getData();
                         final InputStream imageStream;
@@ -304,20 +286,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
             }
-
-
         }
-//        else if (requestCode == REQUEST_GALLERY && requestCode == PICK_IMAGE_REQUEST) {
-//            try {
-//                final Uri imageUri = data.getData();
-//                final InputStream imageStream;
-//                imageStream = getContentResolver().openInputStream(imageUri);
-//                final Bitmap selectedImage = BitmapFactory.decodeStream(imageStream);
-//                setPicture(selectedImage);
-//            } catch (FileNotFoundException e) {
-//                e.printStackTrace();
-//            }
-//        }
     }
 
     public void setPicture(Bitmap bp)
