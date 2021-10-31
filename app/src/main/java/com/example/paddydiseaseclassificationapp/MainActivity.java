@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onClick(View v) {
 
                     if (mImageView.getDrawable() == null){
-                        Toast.makeText(getBaseContext(), "Silahkan upload/capture gambar terlebih dahulu !" , Toast.LENGTH_SHORT ).show();
+                        Toast.makeText(getBaseContext(), "Please upload/capture a picture first !" , Toast.LENGTH_SHORT ).show();
                     }
                     else{
                         progressDialog = new ProgressDialog(MainActivity.this);
@@ -136,14 +136,14 @@ public class MainActivity extends AppCompatActivity {
                             public void onDismiss(DialogInterface dialog) {
                                 //Put your AlertDialog Here ....
                                 AlertDialog.Builder alert = new AlertDialog.Builder(MainActivity.this);
-                                alert.setMessage("Predikasi Penyakit Berhasil");
+                                alert.setMessage("predict disease from image done !");
                                 alert.show();
 
                             }
                         });
 
                         progressDialog.setMax(100); // Progress Dialog Max Value
-                        progressDialog.setTitle("Proses memprediksi penyakit !"); // Setting Title
+                        progressDialog.setTitle("The process of predicting disease !"); // Setting Title
                         progressDialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL); // Progress Dialog Style Horizontal
                         progressDialog.show(); // Display Progress Dialog
                         progressDialog.setCancelable(false);
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
                                             //imageViewResult.setImageBitmap(bitmap);
 
                                             final List<Classifier.Recognition> results = classifier.recognizeImage(bitmap);
-                                            mTv.setText(results.toString().replace("[", "").replace("]", ""));
+                                            mTv.setText(results.toString().replace("[", "\n\n\n").replace("]", "\n"));
                                         }
                                     }
 

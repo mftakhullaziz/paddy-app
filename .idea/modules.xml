@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="paddy-app/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paddy-app.iml" filepath="$PROJECT_DIR$/.idea/modules/paddy-app.iml" group="paddy-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/paddy-app.iml" filepath="$PROJECT_DIR$/.idea/modules/paddy-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/paddy-app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/paddy-app.app.iml" />
     </modules>
   </component>
 </project>

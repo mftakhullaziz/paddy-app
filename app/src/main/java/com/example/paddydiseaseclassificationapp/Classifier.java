@@ -62,11 +62,11 @@ public interface Classifier {
 //            }
 
             if (title != null) {
-                resultString += "Jenis penyakitnya adalah : " + title;
+                resultString += " Type of disease is : " + title + " Disease";
             }
 
             if (confidence != null) {
-                resultString += "\nTingkat keakuratan : " + String.format("%.1f%% ", confidence * 100.0f);
+                resultString += "\n\n Accuracy : " + String.format("%.1f%% ", confidence * 100.0f);
             }
 
             return resultString.trim();

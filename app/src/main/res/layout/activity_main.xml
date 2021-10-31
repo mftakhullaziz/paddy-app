@@ -31,11 +31,21 @@
                 <ImageView
                     android:id="@+id/image_view"
                     android:layout_width="match_parent"
-                    android:layout_height="220dp"
+                    android:layout_height="180dp"
                     android:adjustViewBounds="true"
-                    android:scaleType="centerInside"/>
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bground" />
 
             </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="5dp">
 
                 <TextView
                     android:id="@+id/textView0"
@@ -43,32 +53,49 @@
                     android:layout_marginTop="18dp"
                     android:layout_marginLeft="15dp"
                     android:fontFamily="@font/droidsans"
-                    android:textSize="13sp"
+                    android:textSize="24sp"
                     android:textColor="#474747"
-                    android:textStyle="bold"
+                    android:textStyle="normal"
                     android:layout_centerHorizontal="true"
                     android:layout_height="wrap_content"
-                    android:text="Hasil prediksi penyakit padi pada gambar yaitu :"/>
+                    android:text="Result predict detection : \n"/>
 
                 <TextView
                     android:id="@+id/textView1"
-                    android:layout_width="wrap_content"
-                    android:textStyle="bold"
-                    android:layout_height="50dp"
-                    android:textColor="#474747"
+                    android:layout_width="372dp"
+                    android:layout_height="178dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="15dp"
                     android:fontFamily="@font/droidsans"
-                    android:text="                                                                                  "
-                    android:textSize="13sp" />
+                    android:text="\n "
+                    android:textColor="#474747"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/predict_image_btn"
+                android:text="predict here"
+                android:fontFamily="@font/droidsans"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:layout_marginBottom="-6dp"
+                tools:ignore="MissingConstraints" />
+
+
 
             <Button
                 android:id="@+id/capture_image_btn1"
-                android:text="Buka kamera"
+                android:text="capture images from camera"
                 android:fontFamily="@font/droidsans"
-                style="@style/Base.Widget.AppCompat.Button.Colored"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_marginTop="5dp"
                 android:textSize="14sp"
@@ -80,9 +107,9 @@
 
             <Button
                 android:id="@+id/capture_image_btn2"
-                android:text="Upload gambar dari gallery"
+                android:text="upload images from gallery"
                 android:fontFamily="@font/droidsans"
-                style="@style/Base.Widget.AppCompat.Button.Colored"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:textSize="14sp"
                 android:textStyle="bold"
@@ -91,24 +118,13 @@
                 android:layout_marginBottom="-6dp"
                 tools:ignore="MissingConstraints" />
 
-            <Button
-                android:id="@+id/predict_image_btn"
-                android:text="Prediksi penyakit"
-                android:fontFamily="@font/droidsans"
-                style="@style/Base.Widget.AppCompat.Button.Colored"
-                android:layout_width="match_parent"
-                android:layout_height="65dp"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                android:textAllCaps="false"
-                android:layout_marginBottom="-6dp"
-                tools:ignore="MissingConstraints" />
+
 
             <Button
                 android:id="@+id/results_image_btn"
-                android:text="Saran dan cara mengatasinya"
+                android:text="suggestions and how to solve it"
                 android:fontFamily="@font/droidsans"
-                style="@style/Base.Widget.AppCompat.Button.Colored"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
                 android:textSize="14sp"
@@ -120,8 +136,9 @@
                 android:layout_below="@+id/results_image_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Paddy App Version 1.0"
+                android:text="rise disease detection - v2.0"
                 android:textAlignment="center"
+                android:textSize="18sp"
                 android:layout_marginTop="5dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="20dp"
